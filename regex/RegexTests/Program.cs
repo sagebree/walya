@@ -11,7 +11,7 @@ namespace RegexTests
     {
         static void Main(string[] args)
         {
-            string input = @"Branch ship.client.main.w5m2 2011/10/25 01:09:28 'Created by CreateBranch script for REDMOND\BTSA010 '";
+            string input = @"Branch ship.myserver.child 2011/10/25 01:09:28 'Created by CreateBranch script for SEATTLE\MYALIAS '";
             string pattern = "Branch (.+?) .*";
             Match match = Regex.Match(input, pattern);
             if (match.Success && match.Groups.Count == 2)

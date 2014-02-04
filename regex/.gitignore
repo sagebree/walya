@@ -1,0 +1,15 @@
+# compiled sources #
+####################
+*.dll
+*.exe
+
+# solution files #
+##################
+*.sln
+*.suo
+
+# bin directories #
+###################
+
+/**/bin/**/*
+/**/obj/**/*
